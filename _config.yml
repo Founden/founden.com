@@ -1,0 +1,18 @@
+title: Founden
+email: ola@founden.com
+description: We help with digital products legacy and tech debt.
+intro: >
+  Consulting services for small/medium companies looking to reduce concerns in
+  their technology.
+keywords: >
+  tech debt, legacy tech, product sunset, dead code cleanup, infrastructure
+  optimizations, cost saving, performance, instrumentation, monitoring,
+  remote culture, open source presence, legal tech documentation
+url: https://founden.com
+ga_id: ''
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock

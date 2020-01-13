@@ -7,6 +7,7 @@ layout: default
     Common scenarios
   </h3>
 
+  <img src="/assets/broom.png" class="w-10" />
   <ul class="lh-title w-third">
     <li>Dead code and dependency cleanup</li>
     <li>
@@ -15,11 +16,13 @@ layout: default
     </li>
   </ul>
 
+  <img src="/assets/rocket.png" class="w-10" />
   <ul class="lh-title w-third">
     <li>Infrastructure and cost reduction</li>
     <li>Performance instrumentation, monitoring and optimization</li>
   </ul>
 
+  <img src="/assets/man.png" class="w-10" />
   <ul class="lh-title w-third">
     <li>
       Remote culture migration, team growth and operations

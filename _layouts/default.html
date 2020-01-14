@@ -3,24 +3,28 @@
 
   {% include header.html %}
 
-  <body class="bg-white sans-serif">
+  <body class="bg-white sans-serif bt bw4">
 
-    <header class="ph4">
-      <img src="/assets/surf.png" class="fr w-50" />
-      <h1 class="w-50 f-subheadline lh-title bb bw4 mb0 pr2">
-        {{ site.description }}
-      </h1>
-      <h2 class="w-50 ttu normal">
-        {{ site.intro }}
-      </h2>
+    <header class="ph4 flex-l items-center-l bt bw1 mt1">
+      <div class="w-100 aw-50-l">
+        <h1 class="f-headline lh-title bb bw4">
+          {{ site.description }}
+        </h1>
+        <h2 class="ttu normal">
+          {{ site.intro }}
+        </h2>
+      </div>
+      <div class="w-100 aw-50-l">
+        <img src="/assets/surf.png" class="" />
+      </div>
     </header>
 
     <main>
       {{ content }}
     </main>
 
-    <footer>
-      <div class="pa4 bg-black b--near-black bt bw4 white">
+    <footer class="">
+      <div class="pa4 bg-black white">
         <h4 class="ttu lh-title">
           About
         </h4>
